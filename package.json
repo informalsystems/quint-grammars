@@ -1,0 +1,34 @@
+{
+  "name": "quint-tmlanguage",
+  "version": "0.1.0",
+  "description": "TextMate grammar for the Quint specification language",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/informalsystems/quint-tmlanguage"
+  },
+  "license": "MIT",
+  "keywords": [
+    "quint",
+    "tmlanguage",
+    "textmate",
+    "grammar",
+    "syntax",
+    "specification"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "quint",
+        "aliases": ["Quint", "quint"],
+        "extensions": [".qnt"]
+      }
+    ],
+    "grammars": [
+      {
+        "language": "quint",
+        "scopeName": "source.quint",
+        "path": "./grammars/quint.tmLanguage.json"
+      }
+    ]
+  }
+}
