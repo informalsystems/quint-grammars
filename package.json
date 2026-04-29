@@ -27,7 +27,7 @@
       {
         "language": "quint",
         "scopeName": "source.quint",
-        "path": "./textmate/quint.tmLanguage.json"
+        "path": "./grammars/quint.tmLanguage.json"
       }
     ]
   }
