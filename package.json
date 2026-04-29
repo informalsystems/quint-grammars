@@ -1,10 +1,10 @@
 {
-  "name": "quint-tmlanguage",
+  "name": "quint-grammars",
   "version": "0.1.0",
-  "description": "TextMate grammar for the Quint specification language",
+  "description": "Syntax-highlighting grammars for the Quint specification language",
   "repository": {
     "type": "git",
-    "url": "https://github.com/informalsystems/quint-tmlanguage"
+    "url": "https://github.com/informalsystems/quint-grammars"
   },
   "license": "MIT",
   "keywords": [
@@ -27,7 +27,7 @@
       {
         "language": "quint",
         "scopeName": "source.quint",
-        "path": "./grammars/quint.tmLanguage.json"
+        "path": "./textmate/quint.tmLanguage.json"
       }
     ]
   }
